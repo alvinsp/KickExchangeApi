@@ -24,6 +24,7 @@ app.get('/', (req, res) => {
         status: 200,
         message: "Welcome To Products API"
     })
+    res.send('Express Vercel')
 })
 
 const PORT = process.env.PORT || 3000;
